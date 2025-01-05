@@ -19,20 +19,22 @@
 }
 
 .heddiv > h1 {
-  margin-top: 5px;
+  margin-top: 30px;
   margin-left: 5px;
   max-width: 103px;
   max-height: 56px;
+  padding-left: 30px;
 }
 
 .heddiv > a {
-  margin-top: 20px;
+  margin-top: 50px;
   max-width: 227px;
   max-height: 60px;
   text-align: left;
   letter-spacing: 1.3px;
   color: #373737;
   opacity: 1;
+  padding-right: 30px;
 }
 
 .h6div {
@@ -45,6 +47,7 @@
   letter-spacing: 0px;
   color: #b3b3b3;
   opacity: 1;
+  padding-left: 30px;
 }
 
 .image1 > img {
@@ -82,21 +85,89 @@ ul {
   transform: translateX(-330px);
 }
 
-@media (max-width: 1024px) {
-  .section-one {
-    max-width: 1024px;
-    max-height: 400px;
-  }
-  .image1 > img {
-    max-width: 200px;
-    max-height: 200px;
-    width: 100%;
-    /* transform: translateX(-60%); */
-  }
-  .image1 {
-    transform: translateX(-40%);
-  }
-  .image1 > .li2 {
-    font-size: 6px;
-  }
+.section-two {
+  display: flex;
+  margin-top: 135px;
+  justify-content: center;
+  align-items: center;
 }
+
+.section-two > img {
+  max-width: 400px;
+  max-height: 400px;
+  background-color: #555555;
+}
+
+.section-two > div h1 {
+  color: #222222;
+  max-width: 196px;
+  max-height: 53px;
+  font-size: 27px;
+  margin-left: 100px;
+  margin-top: 110px;
+  margin-bottom: 6px;
+}
+.section-two > div h6 {
+  color: #daae19;
+  max-width: 106px;
+  max-height: 18px;
+  font-size: 14px;
+  margin-left: 200px;
+}
+.section-two > div p {
+  max-width: 334px;
+  max-height: 149px;
+  padding-left: 30px;
+  margin-top: 33px;
+}
+
+div > .h5 {
+  background-color: #e93656;
+  max-width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 180px;
+  margin-top: 60px;
+}
+
+.section-two > .h4 {
+  display: grid;
+  gap: 27px;
+  margin-left: 60px;
+}
+
+.h4 > .line {
+  max-width: 256px;
+  max-height: 9px;
+  background-color: #e93656;
+  margin-top: -20px;
+}
+.h4 > .linee {
+  max-width: 100px;
+  max-height: 8px;
+
+  background-color: #e93656;
+  margin-top: -20px;
+}
+.h4 > .lineee {
+  max-width: 80px;
+  max-height: 8px;
+
+  background-color: #e93656;
+  margin-top: -20px;
+}
+.h4 > .lineeee {
+  max-width: 30px;
+  max-height: 8px;
+
+  background-color: #e93656;
+  margin-top: -20px;
+}
+/* .h4 > .short {
+  max-width: 56px;
+  max-height: 9px;
+  background-color: #e93656;
+  margin-top: -20px;
+} */
