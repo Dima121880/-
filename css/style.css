@@ -61,7 +61,7 @@
 .image1 {
   display: flex;
 }
-ul {
+.image1 > ul {
   list-style: none;
   padding-top: 150px;
   padding-left: 80px;
@@ -165,9 +165,63 @@ div > .h5 {
   background-color: #e93656;
   margin-top: -20px;
 }
-/* .h4 > .short {
-  max-width: 56px;
-  max-height: 9px;
+
+.secction-three > .sectionbackground {
+  margin-top: 100px;
+  max-width: 1920px;
+  height: 210px;
+  background-color: #131a36;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionbackground > img {
+  max-width: 30px;
+  max-height: 30px;
+  color: white;
+}
+.sectionbackground > ul {
+  list-style: none;
+  margin-left: 30px;
+}
+.sectionbackground > .location {
+  color: #ffffff;
+  max-width: 54px;
+  max-height: 41px;
+  margin-left: 41px;
   background-color: #e93656;
-  margin-top: -20px;
-} */
+  border-radius: 100px;
+}
+.sectionbackground > ul li {
+  color: #ffffff;
+  max-width: 176px;
+  max-height: 33px;
+}
+
+.Number > a {
+  color: #dfdfdf;
+  width: 122px;
+  height: 42px;
+  font-size: 10px;
+}
+
+.location {
+  color: #dfdfdf;
+  max-width: 180px;
+  max-height: 42px;
+  font-size: 10px;
+}
+
+.email {
+  max-width: 30px;
+  max-height: 23px;
+  color: #dfdfdf;
+  font-size: 10px;
+}
+.sectionbackground > .email {
+  margin-left: 51px;
+  color: #ffffff;
+  max-width: 30px;
+  max-height: 23px;
+}
