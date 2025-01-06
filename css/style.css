@@ -11,6 +11,8 @@
   left: 0px;
   max-width: 1920px;
   max-height: 972px;
+  justify-content: center;
+  align-items: center;
 }
 
 .heddiv {
@@ -32,9 +34,10 @@
   max-height: 60px;
   text-align: left;
   letter-spacing: 1.3px;
-  color: #373737;
+  color: #1a1a1a;
   opacity: 1;
   padding-right: 30px;
+  text-decoration: dashed;
 }
 
 .h6div {
@@ -49,18 +52,24 @@
   opacity: 1;
   padding-left: 30px;
 }
-
-.image1 > img {
+.myslides {
+  /* display: none; */
+}
+.image1 > article img {
   max-width: 400px;
   max-height: 400px;
   width: 100%;
   margin-left: 150px;
   margin-top: 50px;
   margin-bottom: 50px;
+  vertical-align: middle;
+  object-fit: cover;
+  position: relative;
 }
 .image1 {
   display: flex;
 }
+
 .image1 > ul {
   list-style: none;
   padding-top: 150px;
@@ -77,14 +86,33 @@
   font-size: 16px;
 }
 
-.imaglogos {
+div > .imaglogos {
   max-height: 40px;
   max-width: 40px;
   padding-left: 20px;
   margin-top: 300px;
   transform: translateX(-330px);
 }
-
+.wiev {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 130px;
+}
+.percentaje {
+  color: #e93656;
+  font-size: 24px;
+}
+.Clients {
+  color: #212121;
+  font-size: 24px;
+}
+div > .long {
+  width: 340px;
+  height: 6px;
+  margin-top: 5px;
+  background-color: #e93656;
+  margin-left: 72%;
+}
 .section-two {
   display: flex;
   margin-top: 135px;
@@ -111,7 +139,7 @@
   color: #daae19;
   max-width: 106px;
   max-height: 18px;
-  font-size: 14px;
+  font-size: 10px;
   margin-left: 200px;
 }
 .section-two > div p {
@@ -121,7 +149,7 @@
   margin-top: 33px;
 }
 
-div > .h5 {
+div > .button-hireme {
   background-color: #e93656;
   max-width: 100px;
   height: 30px;
@@ -137,35 +165,59 @@ div > .h5 {
   gap: 27px;
   margin-left: 60px;
 }
-
-.h4 > .line {
-  max-width: 256px;
-  max-height: 9px;
-  background-color: #e93656;
-  margin-top: -20px;
+.myProgress {
+  width: 100%;
+  background-color: grey;
+  margin-top: -10px;
 }
-.h4 > .linee {
-  max-width: 100px;
-  max-height: 8px;
-
-  background-color: #e93656;
-  margin-top: -20px;
+.myBar {
+  width: 80%;
+  height: 9px;
+  background-color: red;
 }
-.h4 > .lineee {
-  max-width: 80px;
-  max-height: 8px;
-
-  background-color: #e93656;
-  margin-top: -20px;
+.myBar2 {
+  width: 65%;
+  height: 9px;
+  background-color: red;
 }
-.h4 > .lineeee {
-  max-width: 30px;
-  max-height: 8px;
-
-  background-color: #e93656;
-  margin-top: -20px;
+.myBar3 {
+  width: 50%;
+  height: 9px;
+  background-color: red;
+}
+.myBar4 {
+  width: 30%;
+  height: 9px;
+  background-color: red;
+}
+.squarediv {
+  margin-top: 400px;
+  display: grid;
+  display: flex;
+  gap: 5px;
+  margin-right: 40px;
 }
 
+.square {
+  background-color: #f9f9f9;
+  width: 50px;
+  height: 50px;
+}
+.squarediv > .squaree {
+  width: 50px;
+  height: 50px;
+  background-color: #f9f9f9;
+}
+.squarediv > .squareee {
+  width: 50px;
+  height: 50px;
+  background-color: #15263e;
+}
+.squarediv > .squareeee {
+  width: 50px;
+  height: 50px;
+  background-color: #f9f9f9;
+}
 .secction-three > .sectionbackground {
   margin-top: 100px;
   max-width: 1920px;
