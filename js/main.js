@@ -23,29 +23,35 @@ function showSlides() {
 }
 
 // პროცენტების-სლაიდი
-// let indicator1 = document.querySelector("line-0");
-// let indicator2 = document.querySelector("linee-0");
-// let indicator3 = document.querySelector("lineee-0");
-// let indicator4 = document.querySelector("lineeee-0");
 
-// window.onscroll = function () {
-//   indicator1.classList.add("line-80%");
-// };
-let i = 0;
-function move() {
-  if (i == 0) {
-    i = 1;
-    let elem = document.getElementById("myBar");
-    let width = 1;
-    let id = setInterval(frame, 10);
-    function frame() {
-      if (width >= 100) {
-        clearInterval(id);
-        i = 0;
-      } else {
-        width++;
-        elem.style.width = width + "%";
-      }
-    }
-  }
-}
+// var i = 0;
+// function move() {
+//   if (i == 0) {
+//     i = 1;
+//     var elem = document.getElementById("myBar");
+//     var width = 1;
+//     var id = setInterval(frame, 10);
+//     function frame() {
+//       if (width >= 100) {
+//         clearInterval(id);
+//         i = 0;
+//       } else {
+//         width++;
+//         elem.style.width = width + "%";
+//       }
+//     }
+//   }
+//   window.addEventListener("scroll", animateProgressBars);
+// }
+
+let indicator1 = document.querySelector(".line1-0");
+let indicator2 = document.querySelector(".line2-0");
+let indicator3 = document.querySelector(".line3-0");
+let indicator4 = document.querySelector(".line4-0");
+
+window.onscroll = function () {
+  indicator1.classList.add("line-80");
+  indicator2.classList.add("line-65");
+  indicator3.classList.add("line-50");
+  indicator4.classList.add("line-30");
+};
